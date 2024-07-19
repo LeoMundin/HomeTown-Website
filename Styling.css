@@ -1,11 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
-img {
-  width: 400px;
-}
+#Hero {
+  background-image: url(./img/cresant.png);
+  background-size: cover;
 
-.Icon {
-  width: 10px;
+  text-align: center;
+
+  height: 200px;
 }
