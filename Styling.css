@@ -21,20 +21,24 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding-top: 350px;
+  padding-top: 390px;
 }
 
 #Title {
+  margin-bottom: 0px;
+  font-family: "STIX Two Text", serif;
   font-size: 55px;
   color: white;
   background-color: #589360;
-  border-radius: 5px;
-  padding: 5px 50px;
+  box-shadow: 0px 4px 5px 3px #0000002b;
+  border-radius: 3px;
+  padding: 10px 50px 5px 50px;
 }
 
 #Tagline {
-  font-size: 20px;
-  width: 700px;
+  font-size: 27px;
+  font-weight: 500;
+  width: 800px;
   color: white;
-  text-shadow: 0px 0px 2px #201e1a;
+  text-shadow: 0px 0px 4px #201e1a9f;
 }
