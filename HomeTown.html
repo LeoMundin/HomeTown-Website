@@ -33,7 +33,6 @@
       </div>
     </div>
 
-    <!-- 
     <div id="Activities">
       <h2 class="h2_sectionHeading">Top three activities to-do in Bath</h2>
       <div id="ActivityColumns">
@@ -51,15 +50,20 @@
             A moment of stillness in the beating heart of a vibrant city. A
             space that’s alive with music and prayer, art and history. 
           </p>
-          <button class="btn_bookHere">BOOK HERE</button>
+          <button
+            class="btn_bookHere"
+            onclick="openUrl('https://www.bathabbey.org/')"
+          >
+            BOOK HERE
+          </button>
         </div>
 
-        <div class="div_activity">
+        <div class="div_activity" id="CentreColumn">
           <img
             class="img_activityIcon"
             id="No.1House"
             src="img/no.1-house.jpg"
-            alt="perspective on the corner of a road looking at tall georgian 
+            alt="perspective on the corner of a road looking at tall georgian
             style houses curving around the crescent shaped park of the Royal crescent"
           />
           <h3 class="h3_activityHeading">
@@ -69,7 +73,12 @@
             No.1 Royal Crescent provides both interest for architecture and
             history enthusiasts, plus incredible photo opportunities!
           </p>
-          <button class="btn_bookHere">BOOK HERE</button>
+          <button
+            class="btn_bookHere"
+            onclick="openUrl('https://no1royalcrescent.org.uk/')"
+          >
+            BOOK HERE
+          </button>
         </div>
 
         <div class="div_activity">
@@ -86,14 +95,19 @@
             Come visit the extraordinary, ancient Roman Baths located in the
             centre of the city over looked by the stunning Bath Abbey
           </p>
-          <button class="btn_bookHere">BOOK HERE</button>
+          <button
+            class="btn_bookHere"
+            onclick="openUrl('https://www.romanbaths.co.uk/tickets/2024-07-july')"
+          >
+            BOOK HERE
+          </button>
         </div>
       </div>
     </div>
 
     <div id="Accomodation">
       <h2 class="h2_sectionHeading">Relax in the ancient city</h2>
-      <div id="Hotel">
+      <div class="AccomodationEntry">
         <img
           class="img_accomodation"
           id="ApexHotel"
@@ -109,17 +123,17 @@
           </p>
           <div class="div_accomodationDetails">
             <div class="div_accomodationContacts">
-              <div class="div_email">
+              <div class="Contact div_email">
                 <img
-                  class="img_emailIcon"
+                  class="Icon img_emailIcon"
                   src="img/mail-icon.png"
                   alt="icon of an envelope for email contacts"
                 />
                 <p class="p_contact">: Food-Restuarant@gmail.com</p>
               </div>
-              <div class="div_phone">
+              <div class="Contact div_phone">
                 <img
-                  class="img_phoneIcon"
+                  class="Icon img_phoneIcon"
                   src="img/phone-icon.png"
                   alt="icon of an telephone for mobile contacts"
                 />
@@ -140,9 +154,10 @@
         </div>
       </div>
 
-      <div id="Restaurant">
+      <div class="AccomodationEntry">
         <div class="div_accomodationContent">
           <h2 class="h2_accomodationHeading">Hondo Sushi</h2>
+
           <p class="p_accomodationContent">
             Hondo Sushi is a newly-opened Japanese restaurant located in the
             centre of Bath, offering beautifully hand-made sushi and a variety
@@ -150,17 +165,17 @@
           </p>
           <div class="div_accomodationDetails">
             <div class="div_accomodationContacts">
-              <div class="div_email">
+              <div class="Contact div_email">
                 <img
-                  class="img_emailIcon"
+                  class="Icon img_emailIcon"
                   src="img/mail-icon.png"
                   alt="icon of an envelope for email contacts"
                 />
                 <p class="p_contact">: Food-Restuarant@gmail.com</p>
               </div>
-              <div class="div_phone">
+              <div class="Contact div_phone">
                 <img
-                  class="img_phoneIcon"
+                  class="Icon img_phoneIcon"
                   src="img/phone-icon.png"
                   alt="icon of an telephone for mobile contacts"
                 />
@@ -177,17 +192,18 @@
                 />
               </button>
             </div>
-          </div>
         </div>
-        <img
+
+        
+      </div>
+      <img
           class="img_accomodation"
           id="HondoSushi"
           src="img/sushi.jpg"
           alt="4 rolls of salmon sushi on a black plate and white background"
         />
-      </div>
     </div>
-
+    
     <div id="TourGuide">
       <div id="GuideContent">
         <h2 class="h2_guideHeading">Travel Like a Local</h2>
@@ -217,8 +233,10 @@
           <p class="p_cardName">Alex James Porter</p>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <footer id="Footer"></footer>
+
+    <script src="Functionality.js"></script>
   </body>
 </html>
