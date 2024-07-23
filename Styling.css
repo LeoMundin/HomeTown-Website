@@ -174,6 +174,7 @@ p {
   border-radius: 5px;
   box-shadow: 0 4px 7px #0000004b;
 }
+
 .btn_websiteLink:hover {
   font-size: 20px;
   background-color: #767363;
@@ -192,4 +193,80 @@ p {
 .Icon {
   width: 30px;
   height: 30px;
+}
+
+#TourGuide {
+  border: dashed 5px #5893606e;
+  border-radius: 10px;
+  margin: 150px 50px;
+  padding: 70px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#GuideContent {
+  margin: 0 30px;
+}
+
+#TravelHeading {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.p_guideText {
+  width: 400px;
+  font-weight: 400;
+}
+
+#GuideButton {
+  margin-top: 20px;
+}
+
+#GuideCard {
+  background-color: #589360;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  columns: row;
+  margin: 0 20px;
+  padding: 10px 30px;
+  height: fit-content;
+  width: 600px;
+  border-bottom: solid 15px #37372f;
+  border-radius: 7px;
+}
+
+#CardContent {
+  height: min-content;
+}
+
+.img_guideImage {
+  width: 200px;
+  height: 200px;
+  box-shadow: 4px 6px 7px #0000004b;
+  border-radius: 5px;
+}
+
+#CardHeading {
+  margin: 10px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.p_cardQuote {
+  width: fit-content;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 20px;
+}
+
+#Footer {
+  background-color: #94907a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 10px;
+  border-top: solid 5px #37372f;
 }
